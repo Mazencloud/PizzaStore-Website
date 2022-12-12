@@ -1,0 +1,248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#diffdeco {
+    height: 7px;
+    background-color: #76c38f;
+
+}
+
+.navbar {
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+    background-color: transparent !important;
+}
+
+.navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 45px;
+    color: white;
+    font-weight: 900;
+}
+
+.navbar #navbarNav .navbar-nav {
+    font-size: 18px;
+}
+
+.navbar #navbarNav .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar #navbarNav .navbar-nav .nav-item .active {
+    color: white;
+    background-color: #76c38f;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 10px;
+}
+
+#bg {
+    background: linear-gradient(0deg, #333333c7, #333333c7), url(images/best-pizza-pizzas-restaurants-cairo.jpg);
+    background-size: cover;
+    padding: 200px;
+}
+
+#bg #bgtext {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#bg #bgtext h1 {
+    font-size: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bg #bgtext p {
+    font-size: 18px;
+    color: #dadada;
+}
+
+#bg #bgtext a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #76c38f;
+    width: 160px;
+    margin-right: auto;
+}
+
+#bg #bgimg img {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#services .card .card-body {
+    text-align: center;
+}
+
+#services .card:hover {
+    background-color: #76c38f;
+    transition: all 0.5s ease-in-out;
+}
+
+#services .card .card-body h5 {
+    font-size: 30px;
+}
+
+#services .card .card-body p {
+    font-size: 18px;
+}
+
+#latest_work h3 {
+    font-size: 40px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #151515;
+    width: 250px;
+    color: white;
+    position: relative;
+}
+
+#latest_work h3::before {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 2px;
+    background-color: #151515;
+    position: absolute;
+    top: 50%;
+    left: -160%;
+}
+
+#latest_work h3::after {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 2px;
+    background-color: #151515;
+    position: absolute;
+    top: 50%;
+    right: -160%;
+}
+
+#sec2 {
+    background-image: linear-gradient(0deg, #686868c7, #686868c7), url(images/istockphoto-521403691-612x612.jpg);
+    background-size: cover;
+}
+
+#cards .card1 {
+    height: 250px;
+    text-align: center;
+    background-image: url(images/pizza-5179939__340.webp);
+    border: 7px solid #fff;
+    position: relative;
+    background-position: -50px -3px;
+}
+@media only screen and (max-width: 767px) {
+    #cards .card1{
+        background-position: -5px -3px;
+    }
+}
+#latest_work #cards .card1 .card-text p {
+    color: white;
+    background-color: #151515ab;
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 0;
+}
+
+#latest_work #cards .card1:hover>.card-text {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+}
+
+#latest_work #cards .card1:hover {
+    transition: all 0.5s ease-in-out;
+    border-color: #76c38f;
+}
+
+.footer-59391 {
+    border-top: 1px solid #fff;
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    padding: 4rem 0;
+}
+
+.footer-59391 .site-logo a {
+    font-size: 30px;
+    color: #3e64ff;
+    font-weight: 900;
+}
+
+.footer-59391 .nav-links li {
+    display: inline-block;
+}
+
+.footer-59391 .nav-links li a {
+    color: #777;
+    padding: 10px;
+}
+
+
+.footer-59391 .subscribe .form-group input[type="email"] {
+    height: 45px;
+    border: none;
+    background: #e6e6e6;
+}
+
+.footer-59391 .subscribe .form-group input[type="email"]:focus,
+.footer-59391 .subscribe .form-group input[type="email"]:active {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.footer-59391 .subscribe .form-group input[type="email"]::-webkit-input-placeholder {
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.footer-59391 .social li {
+    display: inline-block;
+    position: relative;
+}
+
+.footer-59391 .social li a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+    color: #333333;
+}
+
+.footer-99382 .footer-site-logo {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.footer-16371 .footer-site-logo {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.footer-16371 .footer-site-logo a {
+    color: #4200ff;
+}
+
+.border-bottom ul li a{
+    text-decoration: none;
+}
